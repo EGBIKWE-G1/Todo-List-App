@@ -1,0 +1,61 @@
+body {
+  /* background-image: url(https://images.pexels.com/photos/1816699/pexels-photo-1816699.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
+  background-image: url("./assets/darren.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#cry input {
+  background-color: white;
+}
+#cry h1,
+p {
+  text-align: center;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+div .center {
+  justify-content: center;
+  margin: auto;
+}
+.done input {
+  height: 40px;
+  width: 25%;
+  margin: auto;
+  justify-content: center;
+  background-color: white;
+  outline: none;
+  border: 1px solid white;
+  /* color: white; */
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.done input:focus {
+  /* color: white; */
+  background-color: blue;
+  outline: none !important;
+  border-color: #20b8eb;
+  box-shadow: 0 0 10px #20b8eb;
+}
+.man input {
+  align-content: center;
+  background-color: lawngreen;
+}
+button {
+  height: 40px;
+  width: 10%;
+  background-color: #20b8eb;
+  align-content: center;
+  outline: none;
+
+  color: white;
+  margin-top: 20px;
+  margin-left: 45%;
+}
+button:hover {
+  background-color: #6e93a0;
+  outline: none;
+  color: white;
+}
